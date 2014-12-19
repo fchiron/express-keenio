@@ -280,7 +280,8 @@ While not recommended it's possible to override some of the internal behaviours 
     generateEventCollectionName: function (route) {},
     parseRequestBody: function (body) {},
     parseRequestObject: function (req) {},
-    parseResponseBody: function (body) {}
+    parseResponseBody: function (body) {},
+    shouldTrackEvent: function (keenEvent, parsedRequestData, parsedResponseData) {}
   }
 }
 ```
